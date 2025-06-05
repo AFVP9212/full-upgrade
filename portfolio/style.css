@@ -45,7 +45,7 @@ div.about {
   text-align: center;
 }
 
-div.skills {
+div.container {
   background-color: white;
   border-radius: 10px;
   padding: 10px;
@@ -53,5 +53,17 @@ div.skills {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+div.item {
+  background-color: rgb(104, 104, 104);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  flex: 1;
+  min-width: 200px;
+  text-align: center;     
 }
